@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project outputs (regenerated on each run)
+outputs/*.jpg
+outputs/*.json
+!outputs/.gitkeep
+
+# Downloaded models (cached by torch.hub)
+.cache/
+
+# Test images (users provide their own)
+assets/*.jpg
+assets/*.png
+!assets/.gitkeep
+
+
+.zip
+E:\CV_opencv\ML\robovision-lite.zip
+

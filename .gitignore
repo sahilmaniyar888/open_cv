@@ -8,7 +8,7 @@ __pycache__/
 .venv/
 venv/
 
-# VS Code settings (optional to ignore all)
+# VS Code settings
 .vscode/
 
 # Jupyter notebook checkpoints
@@ -22,5 +22,8 @@ Thumbs.db
 *.log
 *.tmp
 
-# Data (optional – if you have big datasets)
+# Archives dropped into the repo during setup
+ML/*.zip
+
+# Data directories
 data/
