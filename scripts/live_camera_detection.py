@@ -1,7 +1,9 @@
+import os
 import cv2
 from ultralytics import YOLO
 
-model = YOLO("yolov8n.pt")
+script_dir = os.path.dirname(os.path.abspath(__file__))
+model = YOLO(os.path.join(script_dir, "yolov8n.pt"))
 cap = cv2.VideoCapture(0)
 
 while cap.isOpened():

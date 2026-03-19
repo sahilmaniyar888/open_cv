@@ -1,6 +1,8 @@
+import os
 import cv2
 
-img1 = cv2.imread("cfd.png")
+script_dir = os.path.dirname(os.path.abspath(__file__))
+img1 = cv2.imread(os.path.join(script_dir, "cfd.png"))
 
 resizing = cv2.resize(img1, (300, 300))
 grey = cv2.cvtColor(resizing, cv2.COLOR_BGR2GRAY)
