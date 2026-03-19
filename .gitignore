@@ -7,11 +7,13 @@ __pycache__/
 # Virtual environment
 .venv/
 venv/
+env/
 
-# VS Code settings
+# VS Code / IDE
 .vscode/
+.idea/
 
-# Jupyter notebook checkpoints
+# Jupyter
 .ipynb_checkpoints/
 
 # OS files
@@ -22,8 +24,27 @@ Thumbs.db
 *.log
 *.tmp
 
-# Archives dropped into the repo during setup
-ML/*.zip
+# Archives
+*.zip
 
 # Data directories
 data/
+datasets/
+
+# Model weights (download separately)
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Outputs
+outputs/
+runs/
+
+# Claude local settings
+.claude/settings.local.json
+
+# Large media (keep small samples only)
+*.mp4
+*.avi
+*.mov
