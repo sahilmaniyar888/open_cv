@@ -1,0 +1,8 @@
+output/
+outputs/
+datasets/
+.versions/
+__pycache__/
+*.jpg
+*.png
+!samples/.gitkeep
