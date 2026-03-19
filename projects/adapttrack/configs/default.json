@@ -1,0 +1,23 @@
+{
+    "detector": {
+        "model": "yolov8n.pt",
+        "confidence": 0.25,
+        "mc_samples": 3
+    },
+    "tracker": {
+        "high_thresh": 0.5,
+        "low_thresh": 0.1,
+        "iou_threshold": 0.3,
+        "max_age": 30,
+        "min_hits": 3,
+        "uncertainty_threshold": 0.7
+    },
+    "failure_detection": {
+        "uncertainty_threshold": 0.6,
+        "uncertainty_window": 5,
+        "fragmentation_gap": 10
+    },
+    "evaluation": {
+        "iou_threshold": 0.5
+    }
+}
